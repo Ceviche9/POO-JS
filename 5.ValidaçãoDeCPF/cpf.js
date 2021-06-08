@@ -63,7 +63,7 @@ class ValidaCPF {
 
 }
 
-const CPF = new ValidaCPF('083.563.613-54');
+const CPF = new ValidaCPF('111.111.111-11');
 
 if(CPF.valida){
 
