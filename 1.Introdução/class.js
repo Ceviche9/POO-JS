@@ -2,7 +2,7 @@
 
 class Pessoa {
 
-    //para criar um método->
+    //para criar um parâmetros->
     constructor(nome, sobrenome) {
 
         this.nome = nome;
