@@ -56,3 +56,10 @@ form input {
     line-height: 1.5em;
 
 }
+
+.error-text{
+
+    font-size: 12px;
+    color: red;
+
+}
