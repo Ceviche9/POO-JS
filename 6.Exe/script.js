@@ -15,6 +15,7 @@ class ValidaFormulário {
         });
     
     }
+
     handleSubmit(e) {
 
         e.preventDefault();
@@ -54,6 +55,15 @@ class ValidaFormulário {
 
 
 
+    }
+    
+    createErro(place, msg) {
+
+        const div = document.createElement('div');
+        div.innerHTML = msg;
+        div.classList.add('error-text');
+
+        place.insertAdjacentElement('afterend', div);
     }
 
     check() {
@@ -130,14 +140,7 @@ class ValidaFormulário {
 
     }
 
-    createErro(place, msg) {
-
-        const div = document.createElement('div');
-        div.innerHTML = msg;
-        div.classList.add('error-text');
-
-        place.insertAdjacentElement('afterend', div);
-    }
+    
 
 }
 
